@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To do List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="background-image">
+        <img src="./assets/images/bg-desktop-light.jpg" id="img-light" alt="">
+        <img src="./assets/images/bg-desktop-dark.jpg" id="img-dark" alt="">
+    </div>
+    <div class="wrapper">
+        <div class="wrapper__container">
+            <div class="header__list">
+                <h1>TODO</h1>
+                <div>
+                    <img src="./assets/images/icon-moon.svg" id="img-moon" alt="">
+                    <img src="./assets/images/icon-sun.svg" id="img-sun" alt="">
+                </div>
+            </div>
+            <div class="parent-new-task">
+                <div class="cercle"></div>
+                <div class="input">
+                    <input type="text" placeholder="Create a new to do...">
+                </div>
+            </div>
+            <div class="header__list__details">
+                <div class="header__list__details__top">
+                    
+                </div>
+                <div class="header__list__details__bottom">
+                    <p class="items">0 items left</p>
+                    <div class="button">
+                        <p><a href="">All</a></p>
+                        <p><a href="">Active</a></p>
+                        <p><a href="#">Completed</a></p>
+                    </div>
+                    <p class="completed"><a href="">Clear Completed</a></p>
+                </div>
+            </div>
+            <p class="footer-text">Drag and drop to reorder list</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
